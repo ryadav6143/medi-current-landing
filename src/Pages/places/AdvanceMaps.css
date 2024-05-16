@@ -1,0 +1,238 @@
+.map-img {
+  background-image: url("../../assets/images/worldmap-background.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center;
+  -webkit-background-position: center;
+  position: relative;
+  -webkit-position: relative;
+  z-index: 10;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.map-img img {
+  width: 90%;
+  margin-left: 3%;
+  z-index: -10;
+}
+.formobile {
+  display: none;
+  -webkit-display: none;
+}
+.forpcs {
+  width: 100%;
+  height: 100%;
+}
+.map-text {
+  margin-left: 6%;
+  margin-right: 20%;
+  font-family: "Gotham-Bold";
+  -webkit-font-family: "Gotham-Bold";
+  font-weight: 400 !important;
+}
+.map-text p:nth-child(1) {
+  color: white;
+  font-size: 40px;
+  border-bottom: 3px solid #fcb514;
+}
+.map-text p:nth-child(2) {
+  font-family: "Gotham-Medium";
+  -webkit-font-family: "Gotham-Medium";
+  color: white;
+  font-size: 30px;
+}
+.card-body {
+  margin-top: 28px;
+}
+
+.country-map img {
+  position: absolute;
+  -webkit-position: absolute;
+}
+.country-map img:nth-child(1) {
+  margin-left: 17%;
+  margin-top: 5%;
+  z-index: 6155;
+}
+.country-map img:nth-child(2) {
+  margin-left: 16%;
+  margin-top: 11%;
+  z-index: 6155;
+}
+.country-map img:nth-child(3) {
+  margin-left: 24%;
+  margin-top: 20%;
+  z-index: 6155;
+}
+.country-map img:nth-child(4) {
+  margin-left: 39%;
+  margin-top: 1%;
+  z-index: 6155;
+}
+.country-map img:nth-child(5) {
+  margin-left: 41%;
+  margin-top: 6%;
+  z-index: 6155;
+}
+.country-map img:nth-child(6) {
+  margin-left: 45%;
+  margin-top: 3%;
+  z-index: 6155;
+}
+.country-map img:nth-child(7) {
+  margin-left: 54%;
+  margin-top: 10%;
+  height: 60px !important;
+  z-index: 6155;
+}
+.country-map img:nth-child(8) {
+  margin-left: 49%;
+  margin-top: 22%;
+  height: 50px !important;
+  z-index: 6155;
+}
+.country-map img:nth-child(9) {
+  margin-left: 69.5%;
+  margin-top: 11%;
+  z-index: 6155;
+}
+.country-map img:nth-child(10) {
+  margin-left: 71.5%;
+  margin-top: 17%;
+  z-index: 6155;
+}
+.country-map img:nth-child(11) {
+  margin-left: 79.5%;
+  margin-top: 23%;
+  z-index: 6155;
+}
+.map-logos {
+  position: relative;
+  width: 80px !important;
+  height: 40px !important;
+  z-index: 1000;
+  opacity: 0;
+  -webkit-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+.map-logos:hover {
+  opacity: 1;
+}
+.map-bottom-head p {
+  font-size: 53px;
+  color: white;
+  line-height: 1;
+  font-family: "Gotham-Medium";
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.company-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.card-text {
+  font-size: 20px;
+  color: white;
+  font-family: "Gotham-Medium";
+}
+@media screen and (max-width: 320px) {
+  .forpcs,
+  .country-map {
+    display: none;
+  }
+  .formobile {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .map-logos {
+    width: 30px !important;
+    height: 10px !important;
+  }
+  .map-text p:nth-child(1) {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 3px solid #fcb514;
+  }
+  .map-text p:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 20px !important;
+  }
+  .map-logos {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .forpcs,
+  .country-map {
+    display: none;
+  }
+  .formobile {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .map-logos {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .map-text p:nth-child(1) {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 3px solid #fcb514;
+  }
+  .map-text p:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .map-logos {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .forpcs,
+  .country-map {
+    display: none;
+  }
+  .formobile {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .map-logos {
+    opacity: 1;
+  }
+  .map-logos {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .map-logos {
+    opacity: 1;
+  }
+}

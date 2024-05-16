@@ -1,0 +1,151 @@
+.faq-body {
+  margin-top: 3%;
+  position: relative;
+  z-index: 10;
+  padding: 0% 10% 3% 10%;
+}
+.faq-section {
+  background-image: url("../../assets/images/faq-background.png");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: 10%;
+}
+.accordion-item {
+  margin: 10px;
+  border: none !important;
+  background-color: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+}
+.accordion-body {
+  background-color: #ffffff !important;
+  font-family: "Gotham-Book";
+  margin-left: -19.1%;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px !important;
+}
+.accordion-body p {
+  font-size: 15px;
+}
+.accordion-header button {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  font-family: "Gotham-Bold";
+  font-weight: 400;
+  font-size: 17px;
+  border-radius: 10px !important;
+  background-color: white !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets//logos/minus-sign.png") !important;
+  -webkit-transform: var(--bs-accordion-btn-icon-transform);
+  -ms-transform: var(--bs-accordion-btn-icon-transform);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button::after {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  background-image: url("../../assets//logos/plus-sign.png") !important;
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  -webkit-transition: var(--bs-accordion-btn-icon-transition);
+  -o-transition: var(--bs-accordion-btn-icon-transition);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+/* ----------------------------------------------------------------------------------- */
+.illustrations p {
+  text-transform: uppercase;
+  text-align: center;
+  color: maroon;
+  font-size: 60px;
+  font-family: "Gotham-Black";
+}
+
+.leaf {
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.abstract-1 {
+  position: absolute;
+  right: 0;
+  margin-top: -50px;
+  mix-blend-mode: soft-light;
+}
+.abstract-2 {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.ab-3 {
+  margin-top: 30%;
+  right: 0;
+}
+.ab-4 {
+  left: 0;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .faq-elements {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .faq-elements {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .faq-elements {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .faq-elements {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+.circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: maroon;
+  left: 0;
+  margin-left: -150px;
+  margin-top: 50px;
+
+  div {
+    margin-top: 80px !important;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+}
+.accordion-button {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
